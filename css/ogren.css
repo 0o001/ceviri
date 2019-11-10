@@ -1,0 +1,176 @@
+body {
+	padding-bottom: 20px;
+}
+.container-body {
+	margin-top: 60px;
+}
+.learn-logo {
+	margin-bottom: 10px;
+}
+.learn-logo > i {
+	font-size: 60px;
+	color: #377EF0;
+	
+}
+.learn-logo > .fa-graduation-cap  {
+	-webkit-transform: rotateY(180deg); /* Safari and Chrome */
+    -moz-transform: rotateY(180deg);   /* Firefox */
+    -ms-transform: rotateY(180deg);   /* IE 9 */
+    -o-transform: rotateY(180deg);   /* Opera */
+    transform: rotateY(180deg);
+}
+.learn-translate {
+	height: 50px;
+	color: #fff;
+	background-color: #ddd;
+}
+.learn-translate-image {
+	width: 100%;
+	height: 270px;
+}
+.learn-translate-div {
+	border-radius: 2px 2px 0px 0px;
+}
+.learn-result-div {
+	border-radius: 0px 0px 2px 2px;
+}
+.learn-translate-tools {
+	position: absolute;
+	padding: 10px;
+}
+.learn-translate-tools .fa {
+	font-size: 18px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.6);
+	cursor: pointer;
+}
+.learn-translate-tools .fa:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+.facebook {
+	font-size: 16px;
+	padding: 5px;
+	padding-right: 9px;
+	padding-left: 8px;
+	border-radius: 20px;
+}
+.learn-translate-tools .facebook {
+	background-color: rgba(9, 89, 152, 0.7);
+}
+.learn-translate-tools .facebook:hover {
+	background-color: rgba(9, 89, 152, 0.6);
+}
+.twitter, .whatsapp {
+	padding: 5px;
+	padding-left: 6px;
+	font-size: 16px;
+	border-radius: 20px;
+}
+.learn-translate-tools .twitter {
+	background-color: rgba(85, 172, 238, 0.7);
+}
+.learn-translate-tools .twitter:hover {
+	background-color: rgba(85, 172, 238, 0.6);
+}
+.learn-translate-tools .whatsapp {
+	background-color: rgba(77, 194, 71, 0.7);
+}
+.learn-translate-tools .whatsapp:hover {
+	background-color: rgba(77, 194, 71, 0.6);
+}
+.tools-down {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	text-align: center;
+}
+.tools-down .repeat {
+	font-size: 33px;
+	transform: rotateY(180deg);
+	padding: 15px;
+	padding-left: 17px;
+	padding-right: 17px;
+	border-radius: 40px;
+}
+.tools-down .change {
+	padding: 7px 6px 6px 6px;
+
+	margin-bottom: 5px;
+	border-radius: 15px;
+}
+.learn-translate-image-div {
+	position: relative;
+}
+.translate-translate-btn {
+	margin-top:7px;
+	margin-left: 7px;
+	padding: 0px;
+}
+.translate-translate-btn:focus {
+	border-color: #fff;
+}
+.translate-translate-btn .translate-flag {
+	width: 50px;
+	margin-top: 0px;
+}
+li .translate-flag {
+	float: left;
+	margin-top: 1px;
+}
+.learn-result-text {
+	font-size: 18px;
+	text-align: center;
+}
+.learn-translate > div {
+	position:relative;
+	display: inline-block;
+	top:5px;
+}
+.learn-translate-div {
+	background-color: #D54C5A;
+}
+.learn-result-div {
+	background-color: #427BC6;
+}
+.learn-translate > button {
+	border-radius: 5px;
+	border: 1px solid #fff;
+	padding: 0px;
+
+}
+.learn-translate > button:focus {
+	outline:0 !important;
+}
+.modal-title {
+	padding-top: 5px;
+}
+#modal-languages-menu {
+	text-align: center;
+}
+#modal-languages-menu > li > button{
+	margin: 5px;
+	width: 130px;
+}
+.btn-translate-country > .translate-flag {
+    width: 27px;
+    margin-right: 4px;
+}
+.translate-translate-sound, .translate-result-sound {
+	position: relative;
+	float: right;
+	font-size: 32px;
+	margin:5px;
+	margin-top:10px;
+	cursor: pointer;
+}
+.translate-translate-sound:hover, .translate-result-sound:hover {
+	color: #ddd;
+}
+.whatsapp {
+	display: none;
+}
+@media only screen and (max-device-width: 600px) {
+	.whatsapp {
+	display: inline-block;
+	}
+}

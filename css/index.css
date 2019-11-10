@@ -1,0 +1,221 @@
+.container-body {
+	margin-top:50px;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+.translate-elements:not(img) {
+	height: 160px;
+	padding: 10px;
+	font-size: 20px;
+}
+.translate-textarea {
+	width: 100%;
+	resize: none;
+	display: block;
+	border-radius: 0px;
+	border-width: 1px;
+	border-color: #A9A9A9;
+	border-style: solid;
+}
+.translate-textarea:focus {
+    outline: 0;
+    border-color: #377EF0;
+}
+.translate-result-div {
+	background-color: #eee;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	word-wrap: break-word;
+	white-space:pre-wrap;
+}
+.translate-image {
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 100%;
+	height: 200px;
+	cursor: default;
+	padding-left: 70px;
+	padding-right: 70px;
+	background-color: #303145;
+}
+.row-list > div{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.translate-tools {
+	height: 40px;
+	padding: 8px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.row-language {
+	margin-bottom: 10px;
+}
+.row-language > div {
+	padding: 0px;
+}
+.translate-language button {
+	border-radius: 3px;
+}
+.translate-flag {
+	width: 27px;
+	margin-right: 4px;
+	margin-top: -1px;
+}
+li .translate-flag {
+	float: left;
+	margin-top: 1px;
+}
+.translate-translate-btn {
+	padding-left: 8px;
+	padding-top: 6px;
+}
+.btn .glyphicon-transfer {
+	margin-top:5px;
+}
+.translate-tools-icons {
+	color: #fff;
+	font-size: 19px;
+	cursor: pointer;
+
+}
+.translate-tools-icons:hover {
+	color: #ddd;
+}
+.translate-tools .glyphicon-copy {
+	font-size: 9px
+}
+.translate-tools .fa-volume-down {
+	font-size:25px;
+}
+.translate-tools-right {
+	border-bottom-right-radius:2px;
+	background-color: #427BC6;
+
+}
+.translate-tools-left {
+	border-bottom-left-radius:2px;
+	background-color: #D54C5A;
+}
+.translate-image-tools {
+	position: absolute;
+	padding: 10px;
+	width: 100%;
+}
+.translate-image-tools .fa {
+	font-size: 18px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.6);
+}
+.translate-image-tools .fa:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+.facebook {
+	font-size: 16px;
+	padding: 5px;
+	padding-right: 9px;
+	padding-left: 8px;
+	border-radius: 20px;
+}
+.twitter, .whatsapp {
+	padding: 5px;
+	padding-left: 6px;
+	font-size: 16px;
+	border-radius: 20px;
+}
+.change {
+	padding: 11px;
+	border-radius: 22px;
+	display: none;
+}
+.translate-image-tools .facebook {
+	background-color: rgba(9, 89, 152, 0.7);
+}
+.translate-image-tools .facebook:hover {
+	background-color: rgba(9, 89, 152, 0.6);
+}
+.translate-image-tools .twitter {
+	background-color: rgba(85, 172, 238, 0.7);
+}
+.translate-image-tools .twitter:hover {
+	background-color: rgba(85, 172, 238, 0.6);
+}
+.translate-image-tools .whatsapp {
+	background-color: rgba(77, 194, 71, 0.7);
+}
+.whatsapp {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.translate-image-tools .whatsapp:hover {
+	background-color: rgba(77, 194, 71, 0.6);
+}
+.modal-title {
+	padding-top: 5px;
+}
+#modal-languages-menu {
+	text-align: center;
+}
+#modal-languages-menu > li > button{
+	margin: 5px;
+	width: 130px;
+}
+.translate-tools-right .translate-tools-icons {
+	margin-right: 5px;
+}
+.translate-tools-left .translate-tools-icons {
+	margin-left: 5px;
+}
+.btn-primary, .btn-primary:active {
+	background-color: rgb(65, 114, 218);
+	border-color: rgb(65, 114, 218);
+}
+.translate-translate-btn:disabled {
+	opacity: 1;
+	cursor: default;
+}
+@media only screen and (max-width: 991px) {
+	.translate-tools-left .translate-tools-icons {
+	margin-left: 0px;
+	}
+	.row-language div {
+		text-align: center;
+	}
+	.translate-tools-right {
+		border-bottom-right-radius:0px;
+	}
+	.translate-tools-left {
+		border-bottom-left-radius:0px;
+		text-align: left;
+	}
+	.col-xs-4 {
+		width: 100%;
+	}
+	.translate-language {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.btn .glyphicon-transfer {
+		-webkit-transform: rotate(90deg); /* Safari and Chrome */
+	    -moz-transform: rotate(90deg);   /* Firefox */
+	    -ms-transform: rotate(90deg);   /* IE 9 */
+	    -o-transform: rotate(90deg);   /* Opera */
+	    transform: rotate(90deg);
+	}
+}
+.whatsapp {
+	display: none;
+}
+@media only screen and (max-device-width: 600px) {
+	.whatsapp {
+	display: inline-block;
+	}
+}

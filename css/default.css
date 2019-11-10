@@ -1,0 +1,59 @@
+body {
+	font-family: 'consolas';
+}
+.navbar-imaget {
+	background-color: #377EF0;
+	color: #fff;
+	border-radius: 0px;
+}
+.navbar-imaget  a {
+	color: #fff;
+}
+.navbar-imaget a:hover {
+	color: 	#ececec;
+}
+.navbar-title {
+	font-size: 20px;
+}
+.translate-title {
+	margin-top:80px;
+}
+.translate-image {
+	margin-left:5px;
+	cursor: pointer;
+}
+.navbar-links li {
+	font-size: 15px;
+}
+.navbar-links li a:hover, .navbar-links li a:active, .navbar-links li a:focus {
+	background-color: inherit;
+}
+.navbar-t {
+	background-color: #fff;
+	color: #377EF0;
+	padding: 6px;
+	margin-left: 2px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+}
+.navbar-links > li:last-child {
+	display: none;
+}
+/* Snow Style*/
+.navbar {
+   margin-bottom:0px;
+   background-image: url(../pictures/snow/gifts.png), url(../pictures/snow/snow.png), url(../pictures/snow/snowman.png);
+   background-repeat: no-repeat,repeat-x, no-repeat;
+   background-position:left 85px bottom 0px, left 0px bottom -1px, center;
+}
+@media only screen and (max-device-width: 580px) {
+	.navbar-t {
+        margin-left:4px;
+    }
+	.navbar-links > li:last-child {
+		display: block;
+	}
+	.navbar-links > li:nth-last-child(2) {
+		display: none;
+	}
+}

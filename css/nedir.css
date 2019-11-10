@@ -1,0 +1,14 @@
+.imaget-whats-div {
+	text-align: center;
+	font-family: 'consolas';
+	margin:15px;
+
+}
+.imaget-whats-title {
+	color: #377EF0;
+	background-color: #fff;
+	font-size: 30px;
+}
+.imaget-whats-content {
+	margin:15px;
+}

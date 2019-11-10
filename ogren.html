@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giftr - Kelime Öğren</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Gifli ingilizce türkçe sözlük" />
+	<meta name="keywords" content="çeviri,gifli,ingilizce,türkçe,sözlük,giftr,giftranslate,gif translate" />
+	<meta name="copyright" content="Nullovy (c) 2016" />
+	<meta name="title" content="Giftr - Gifli Çeviri" />
+	<meta name="author" content="Nullovy" />
+	<meta name="google" content="notranslate" />
+	<meta name="google-play-app" content="app-id=com.nullovy.giftranslate">
+	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" type="text/css" href="css/ogren.css"/>
+	<link rel="stylesheet" href="css/jquery.smartbanner.css" type="text/css" media="screen">
+</head>
+<body>
+	<nav class="navbar navbar-imaget">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand navbar-title" href="/">
+	      Gif<span class="navbar-t">Tr</span>
+	      </a>
+	    </div>
+	    <ul class="nav navbar-nav navbar-right navbar-links">
+		    <li><a href="/">Translate</a></li>
+		    <li><a href="ogren">Learn</a></li>
+	        <li><a href="nedir">What is</a></li>
+	        <li><a href="http://nullovy.com/indir/Imaget%20Setup.exe">Download</a></li>
+	        <li><a href="https://play.google.com/store/apps/details?id=com.nullovy.giftranslate" target="_blank">Google Play</a></li>
+	    </ul>
+	  </div>
+	</nav>
+	<div class="container-body">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-6 col-md-offset-3 col-xs-12 col-lg-4 col-lg-offset-4 col-sm-8 col-sm-offset-2">
+				<div class="learn-logo text-center">
+					<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+				</div>
+			<div class="learn-translate learn-translate-div">
+				<button type="button" id="translate-translate-btn-element" class="btn btn-default translate-translate-btn" data-code="tr" data-toggle="modal" data-target="#modal-languages" data-name="modal-languages-select-1">
+					<img src="pictures/Turkey.png" class="translate-flag" />
+				</button>
+				<div class="learn-result-text learn-translate-text-1">...</div>
+				<i class="fa fa-volume-down translate-tools-icons translate-translate-sound"></i>
+			</div>
+			<div class="learn-translate-image-div">
+				<div class="learn-translate-tools tools-up">
+					<i class="fa fa-twitter translate-tools-icons twitter"></i>
+	    			<i class="fa fa-facebook translate-tools-icons facebook"></i>
+	    			<i class="fa fa-whatsapp translate-tools-icons whatsapp"></i>
+				</div>
+				<div class="learn-translate-tools tools-down">
+					<div>
+						<i class="fa fa-random translate-tools-icons change"></i>
+					</div>
+					<div>
+						<i class="fa fa-repeat translate-tools-icons repeat"></i>
+					</div>
+				</div>
+				<img class="learn-translate-image share-gif" src="pictures/loading.gif" />
+			</div>
+			<div class="learn-translate learn-result-div">
+				<button type="button" id="translate-result-btn-element" class="btn btn-default translate-translate-btn" data-code="en" data-toggle="modal" data-target="#modal-languages" data-name="modal-languages-select-2" disabled>
+					<img src="pictures/English.png" class="translate-flag"/>
+				</button>
+				<div class="learn-result-text learn-translate-text-2">...</div> 
+				<i class="fa fa-volume-down translate-tools-icons translate-result-sound"></i>
+			</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div id="modal-languages" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title"><img src="pictures/translate.png" width="40px" style="padding-right: 10px;" />Select Language</h4>
+	      </div>
+	      <div class="modal-body">
+	        <ul id="modal-languages-menu" role="menu" class="list-inline">
+	        <!--Flags-->
+	    	</ul>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default modal-close" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
+	<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lang/default-language.js"></script>
+	<script type="text/javascript" src="js/lang/ogren-language.js"></script>
+	<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/kelimeler.js"></script>
+	<script type="text/javascript" src="js/social.js"></script>
+	<script type="text/javascript" src="js/default.js"></script>
+	<script type="text/javascript" src="js/ogren.js"></script>
+	<script src="js/lib/jquery.smartbanner.js"></script>
+	<script src="js/giftr.smartbanner.js"></script>
+</body>
+</html>

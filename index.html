@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giftr - Gifli Çeviri</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Gifli ingilizce türkçe sözlük" />
+	<meta name="keywords" content="çeviri,gifli,ingilizce,türkçe,sözlük,giftr,giftranslate,gif translate" />
+	<meta name="copyright" content="Nullovy (c) 2016" />
+	<meta name="title" content="Giftr - Gifli Çeviri" />
+	<meta name="author" content="Nullovy" />
+	<meta name="google" content="notranslate" />
+	<meta name="google-play-app" content="app-id=com.nullovy.giftranslate">
+	<link rel="icon" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/default.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="css/jquery.smartbanner.css" type="text/css" media="screen">
+</head>
+<body>
+<nav class="navbar navbar-imaget">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand navbar-title" href="/">
+      Gif<span class="navbar-t">Tr</span>
+      </a>
+    </div>
+    <ul class="nav navbar-nav navbar-right navbar-links">
+	    <li><a href="/">Translate</a></li>
+	    <li><a href="ogren">Learn</a></li>
+        <li><a href="nedir">What is</a></li>
+        <li><a href="http://nullovy.com/indir/Imaget%20Setup.exe">Download</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.nullovy.giftranslate" target="_blank">Google Play</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container-body">
+	<div class="container">
+		<div class="row row-language">
+			<div class="col-md-4 col-xs-4">
+				<div class="btn-group  translate-language" role="group" aria-label="...">
+				  <button type="button" id="translate-translate-btn-element" class="btn btn-default translate-translate-btn" data-code="tr" disabled><img src="pictures/Turkey.png" class="translate-flag" />Turkish</button>
+				  <button type="button" class="btn btn-default translate-translate-select" data-toggle="modal" data-target="#modal-languages" data-name="modal-languages-select-1">Language</button>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4 text-center">
+				<div class="translate-language " aria-label="...">
+				  <button type="button" id="translate-transfer-btn" class="btn btn-primary"><i class="glyphicon glyphicon-transfer"></i></button>
+				  <button type="button" class="btn btn-primary translate-result-btn" style="font-size: 17.5px;">Translate</button>
+				</div>
+			</div>
+			<div class="col-md-4 col-xs-4">
+				<div class="btn-group translate-language" role="group" aria-label="...">
+				  <button type="button" id="translate-result-btn-element" class="btn btn-default translate-translate-btn" data-code="en" disabled><img src="pictures/English.png" class="translate-flag" />English</button>
+				  <button type="button" class="btn btn-default translate-translate-select" data-toggle="modal" data-target="#modal-languages" data-name="modal-languages-select-2">Language</button>
+				</div>
+			</div>	
+		</div>
+		<div class="row row-list">
+		    <div class="col-md-4 text-right">
+		    	<textarea class="translate-textarea translate-elements" autofocus placeholder="Text to translate..."></textarea>
+		    	<div class="text-left translate-tools text-right translate-tools-left">
+		    		<i class="fa fa-volume-down translate-tools-icons translate-translate-sound"></i>
+		    	</div>
+		    </div>
+		    <div class="col-md-4">
+		    	<div class="translate-image-tools">
+	    			<i class="fa fa-twitter translate-tools-icons twitter"></i>
+	    			<i class="fa fa-facebook translate-tools-icons facebook"></i>
+	    			<i class="fa fa-whatsapp translate-tools-icons whatsapp"></i>
+		    		<i class="fa fa-random translate-tools-icons right change" aria-hidden="true"></i>
+		    	</div>
+		    	<img class="translate-image translate-elements share-gif" src="pictures/default.gif" data-gif="http://ceviri.nullovy.com" />
+		    </div>
+		    <div class="col-md-4 text-left">
+		    	<div class="translate-result-div translate-elements"></div>
+		    	<div class="text-left translate-tools text-left translate-tools-right">
+		    		<i class="fa fa-volume-down translate-tools-icons translate-result-sound"></i>
+		    		<i class="fa fa-clone translate-tools-icons translate-result-copy"></i>
+		    		<i class="fa fa-cloud-download translate-tools-icons translate-result-download"></i>
+		    		<i class="fa fa-twitter translate-tools-icons twitter-tool"></i>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+</div>
+
+<div id="modal-languages" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"><img src="pictures/translate.png" width="40px" style="padding-right: 10px;" />Select Language</h4>
+      </div>
+      <div class="modal-body">
+        <ul id="modal-languages-menu" role="menu" class="list-inline">
+        <!--Flags-->
+    	</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default modal-close" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="js/lang/default-language.js"></script>
+<script type="text/javascript" src="js/lang/index-language.js"></script>
+<script type="text/javascript" src="js/storage/index-storage.js"></script>
+<script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/default.js"></script>
+<script type="text/javascript" src="js/social.js"></script>
+<script type="text/javascript" src="js/index-25.12.2016.js"></script>
+<script src="js/lib/jquery.smartbanner.js"></script>
+<script src="js/giftr.smartbanner.js"></script>
+</body>
+</html>
